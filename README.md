@@ -1,4 +1,5 @@
-# Customer Export Functionality
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+# Client Side Scripting Level-1 Assignment
 
 ## Description
 
