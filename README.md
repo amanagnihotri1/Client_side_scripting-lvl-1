@@ -71,6 +71,10 @@ bench set-config -g developer_mode 1
    bench use your_bench_name
    bench start
    ```
+1. Navigate to the list view of the Customer Doctype.
+2. Click on the "Export" button to trigger the export functionality.
+3. Once the export is complete, the system will generate a CSV file containing the specified customer and address data.  
+
 ## Implementation Steps
 
 To implement this functionality, follow these steps:
@@ -88,8 +92,3 @@ To implement this functionality, follow these steps:
 4. **Error Handling:**
    - Handle any error cases or exceptions that may occur during the export process to ensure a smooth user experience.
 
-## Usage
-
-1. Navigate to the list view of the Customer Doctype.
-2. Click on the "Export" button to trigger the export functionality.
-3. Once the export is complete, the system will generate a CSV file containing the specified customer and address data.
