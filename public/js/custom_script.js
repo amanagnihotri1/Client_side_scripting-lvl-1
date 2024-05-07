@@ -2,7 +2,6 @@ frappe.ui.form.on("Job Apply", {
     refresh:(frm)=>{
         frm.fields_dict.role.$input.on('change', function() {
             clearFields(frm);
-            console.log('its working or not');
             let selectedRole = frm.doc.role;  
             prompt({message:"working good"});  
             // Update table fields based on the selected role
